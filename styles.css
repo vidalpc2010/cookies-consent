@@ -1,0 +1,464 @@
+#cookies-pc-sdk.ot-fade-in,
+.cookies-pc-dark-filter.ot-fade-in,
+#cookies-banner-sdk.ot-fade-in {
+  animation-name: cookies-fade-in;
+  animation-duration: 400ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes cookies-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cookies-pc-dark-filter {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2147483646;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#cookies-consent-sdk #cookies-banner-sdk {
+  background-color: #32255e;
+}
+
+#cookies-banner-sdk.otFlat {
+  position: fixed;
+  z-index: 2147483645;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  max-height: 90%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#cookies-banner-sdk {
+  scrollbar-arrow-color: #c1c1c1;
+  scrollbar-darkshadow-color: #c1c1c1;
+  scrollbar-face-color: #c1c1c1;
+  scrollbar-shadow-color: #c1c1c1;
+}
+
+#cookies-banner-sdk {
+  box-shadow: 0 0 18px rgb(0 0 0 / 20%);
+}
+
+#cookies-banner-sdk,
+#cookies-pc-sdk,
+#ot-sdk-cookie-policy,
+#ot-sync-ntfy {
+  font-size: 16px;
+}
+
+#cookies-banner-sdk {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+#cookies-banner-sdk *,
+#cookies-banner-sdk ::after,
+#cookies-banner-sdk ::before,
+#cookies-pc-sdk *,
+#cookies-pc-sdk ::after,
+#cookies-pc-sdk ::before,
+#ot-sdk-cookie-policy *,
+#ot-sdk-cookie-policy ::after,
+#ot-sdk-cookie-policy ::before,
+#ot-sync-ntfy *,
+#ot-sync-ntfy ::after,
+#ot-sync-ntfy ::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+#cookies-banner-sdk,
+#cookies-pc-sdk,
+#ot-sdk-cookie-policy,
+#ot-sync-ntfy {
+  font-size: 16px;
+}
+
+#cookies-banner-sdk {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (min-width: 550px) {
+  #cookies-banner-sdk .ot-sdk-container,
+  #cookies-pc-sdk .ot-sdk-container,
+  #ot-sdk-cookie-policy .ot-sdk-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) {
+  #cookies-banner-sdk .ot-sdk-container,
+  #cookies-pc-sdk .ot-sdk-container,
+  #ot-sdk-cookie-policy .ot-sdk-container {
+    width: 90%;
+    padding: 0;
+  }
+}
+
+#cookies-banner-sdk .ot-sdk-container,
+#cookies-pc-sdk .ot-sdk-container,
+#ot-sdk-cookie-policy .ot-sdk-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+  box-sizing: border-box;
+}
+
+#cookies-banner-sdk *,
+#cookies-banner-sdk ::after,
+#cookies-banner-sdk ::before,
+#cookies-pc-sdk *,
+#cookies-pc-sdk ::after,
+#cookies-pc-sdk ::before,
+#ot-sdk-cookie-policy *,
+#ot-sdk-cookie-policy ::after,
+#ot-sdk-cookie-policy ::before,
+#ot-sync-ntfy *,
+#ot-sync-ntfy ::after,
+#ot-sync-ntfy ::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+#cookies-banner-sdk #cookies-policy {
+  margin: 1.25em 0 0.625em 2em;
+  overflow: hidden;
+}
+
+.cookies-consent-sdk {
+  display: none;
+}
+
+.cookies-consent-sdk.activo {
+  display: block;
+}
+
+#cookies-consent-sdk #cookies-policy-title,
+#cookies-consent-sdk #cookies-policy-text,
+#cookies-consent-sdk .ot-b-addl-desc,
+#cookies-consent-sdk .ot-dpd-desc,
+#cookies-consent-sdk .ot-dpd-title,
+#cookies-consent-sdk #cookies-policy-text *:not(.cookies-vendors-list-handler),
+#cookies-consent-sdk .ot-dpd-desc *:not(.cookies-vendors-list-handler),
+#cookies-consent-sdk #cookies-banner-sdk #banner-options *,
+#cookies-banner-sdk .ot-cat-header {
+  color: #f1f3f4;
+}
+
+#cookies-banner-sdk #cookies-policy-title {
+  font-size: 1.2em;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 550px) {
+  #cookies-banner-sdk h3,
+  #cookies-pc-sdk h3,
+  #ot-sdk-cookie-policy h3 {
+    font-size: 1.5rem;
+  }
+}
+
+#cookies-banner-sdk h3,
+#cookies-pc-sdk h3,
+#ot-sdk-cookie-policy h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+#cookies-banner-sdk h1,
+#cookies-banner-sdk h2,
+#cookies-banner-sdk h3,
+#cookies-banner-sdk h4,
+#cookies-banner-sdk h5,
+#cookies-banner-sdk h6,
+#cookies-pc-sdk h1,
+#cookies-pc-sdk h2,
+#cookies-pc-sdk h3,
+#cookies-pc-sdk h4,
+#cookies-pc-sdk h5,
+#cookies-pc-sdk h6,
+#ot-sdk-cookie-policy h1,
+#ot-sdk-cookie-policy h2,
+#ot-sdk-cookie-policy h3,
+#ot-sdk-cookie-policy h4,
+#ot-sdk-cookie-policy h5,
+#ot-sdk-cookie-policy h6 {
+  margin-top: 0;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+@media only screen and (min-width: 1280px) {
+  #cookies-banner-sdk:not(.ot-iab-2).vertical-align-content
+    #cookies-button-group-parent {
+    position: absolute;
+    left: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #cookies-banner-sdk.vertical-align-content #cookies-button-group-parent {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #cookies-banner-sdk:not(.ot-iab-2) #cookies-group-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #cookies-banner-sdk:not(.ot-iab-2) #cookies-button-group-parent {
+    width: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+#cookies-banner-sdk #cookies-policy-text,
+#cookies-banner-sdk .ot-dpd-desc,
+#cookies-banner-sdk .ot-b-addl-desc {
+  font-size: 0.813em;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 1024px) {
+  #cookies-banner-sdk:not(.ot-iab-2) #cookies-button-group-parent {
+    margin: auto;
+    width: 30%;
+  }
+}
+
+#cookies-banner-sdk #cookies-policy-text,
+#cookies-banner-sdk .ot-dpd-desc,
+#cookies-banner-sdk .ot-b-addl-desc {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#cookies-banner-sdk #cookies-policy {
+  margin-top: 0;
+  margin-right: 0px;
+  margin-bottom: 0;
+  margin-left: 2em;
+  overflow: hidden;
+}
+
+#cookies-banner-sdk #cookies-button-group-parent {
+  min-height: 1px;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  #cookies-banner-sdk .ot-sdk-three.ot-sdk-columns,
+  #cookies-pc-sdk .ot-sdk-three.ot-sdk-columns,
+  #ot-sdk-cookie-policy .ot-sdk-three.ot-sdk-columns {
+    width: 22%;
+  }
+}
+
+#cookies-banner-sdk .ot-sdk-column,
+#cookies-banner-sdk .ot-sdk-columns,
+#cookies-pc-sdk .ot-sdk-column,
+#cookies-pc-sdk .ot-sdk-columns,
+#ot-sdk-cookie-policy .ot-sdk-column,
+#ot-sdk-cookie-policy .ot-sdk-columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0;
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  display: initial;
+}
+
+@media (min-width: 550px) {
+  #cookies-banner-sdk .ot-sdk-column,
+  #cookies-banner-sdk .ot-sdk-columns,
+  #cookies-pc-sdk .ot-sdk-column,
+  #cookies-pc-sdk .ot-sdk-columns,
+  #ot-sdk-cookie-policy .ot-sdk-column,
+  #ot-sdk-cookie-policy .ot-sdk-columns {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 550px) {
+  #cookies-banner-sdk .ot-sdk-column:first-child,
+  #cookies-banner-sdk .ot-sdk-columns:first-child,
+  #cookies-pc-sdk .ot-sdk-column:first-child,
+  #cookies-pc-sdk .ot-sdk-columns:first-child,
+  #ot-sdk-cookie-policy .ot-sdk-column:first-child,
+  #ot-sdk-cookie-policy .ot-sdk-columns:first-child {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #cookies-banner-sdk #cookies-button-group {
+    margin-right: auto;
+  }
+}
+
+#cookies-banner-sdk #cookies-button-group {
+  display: inline-block;
+}
+
+#cookies-consent-sdk #cookies-accept-btn-handler,
+#cookies-banner-sdk #cookies-reject-all-handler {
+  background-color: #68368b;
+  border-color: #68368b;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 1024px) {
+  #cookies-banner-sdk #cookies-accept-btn-handler,
+  #cookies-banner-sdk #cookies-reject-all-handler,
+  #cookies-banner-sdk #cookies-pc-btn-handler {
+    margin-top: 1em;
+  }
+}
+
+#cookies-banner-sdk #cookies-accept-btn-handler,
+#cookies-banner-sdk #cookies-reject-all-handler,
+#cookies-banner-sdk #cookies-pc-btn-handler {
+  margin-right: 1em;
+  min-width: 125px;
+  height: auto;
+  white-space: normal;
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 8px 10px;
+  font-size: 14px;
+  line-height: 29px;
+  font-weight: 600;
+}
+
+#cookies-banner-sdk #cookies-accept-btn-handler,
+#cookies-banner-sdk #cookies-reject-all-handler,
+#cookies-banner-sdk #cookies-pc-btn-handler {
+  outline-offset: 1px;
+}
+#cookies-banner-sdk button,
+#cookies-pc-sdk button,
+#ot-sdk-cookie-policy button {
+  margin-bottom: 1rem;
+  font-family: inherit;
+}
+
+#cookies-banner-sdk .ot-sdk-button,
+#cookies-banner-sdk button,
+#cookies-pc-sdk .ot-sdk-button,
+#cookies-pc-sdk button,
+#ot-sdk-cookie-policy .ot-sdk-button,
+#ot-sdk-cookie-policy button {
+  display: inline-block;
+
+  text-align: center;
+
+  letter-spacing: 0.01em;
+  text-decoration: none;
+
+  border-radius: 2px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#cookies-banner-sdk .ot-sdk-button:hover,
+#cookies-banner-sdk :not(.ot-leg-btn-container) > button:hover,
+#cookies-banner-sdk :not(.ot-leg-btn-container) > button:focus,
+#cookies-pc-sdk .ot-sdk-button:hover,
+#cookies-pc-sdk :not(.ot-leg-btn-container) > button:hover,
+#cookies-pc-sdk :not(.ot-leg-btn-container) > button:focus,
+#ot-sdk-cookie-policy .ot-sdk-button:hover,
+#ot-sdk-cookie-policy :not(.ot-leg-btn-container) > button:hover,
+#ot-sdk-cookie-policy :not(.ot-leg-btn-container) > button:focus {
+  color: #333;
+  border-color: #888;
+  opacity: 0.7;
+}
+
+#cookies-banner-sdk .ot-sdk-row,
+#cookies-pc-sdk .ot-sdk-row,
+#ot-sdk-cookie-policy .ot-sdk-row {
+  margin: 0;
+  max-width: none;
+  display: block;
+}
+
+#cookies-banner-sdk .ot-sdk-container:after,
+#cookies-banner-sdk .ot-sdk-row:after,
+#cookies-pc-sdk .ot-sdk-container:after,
+#cookies-pc-sdk .ot-sdk-row:after,
+#ot-sdk-cookie-policy .ot-sdk-container:after,
+#ot-sdk-cookie-policy .ot-sdk-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-gray);
+}
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #58595b;
+  --color-subtle: #f8f8fb;
+  --color-cosmic: #180a48;
+  --color-jacarta: #32255e;
+  --color-jacarta-10: rgba(50, 37, 94, 0.1);
+  --color-jacarta-20: rgba(50, 37, 94, 0.2);
+  --color-eminence: #68368b;
+  --color-cobalt: #194fa1;
+  --color-pelorous: #1a99b0;
+  --color-sun: #ffb132;
+  --color-viridian: #3a8b6b;
+  --color-chelsea: #a4af66;
+  --color-rose: #7a064e;
+  --gradient-primary: var(--color-jacarta), var(--color-eminence),
+    var(--color-cobalt), var(--color-pelorous);
+  --gradient-primary-alt: var(--color-eminence), var(--color-cobalt),
+    var(--color-pelorous);
+  --transition-speed: 0.4s;
+  --transition-easing: cubic-bezier(0.5, 0.5, 0.25, 1);
+  --transition: var(--transition-speed) var(--transition-easing);
+}

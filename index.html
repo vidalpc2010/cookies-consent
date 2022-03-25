@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Cookie and consent alert</h1>
+    </div>
+
+    <div class="cookies-consent-sdk" id="cookies-consent-sdk">
+      <div
+        class="cookies-pc-dark-filter ot-fade-in"
+        style="display: block; z-index: 2147483645"
+      ></div>
+      <div
+        id="cookies-banner-sdk"
+        class="otFlat bottom vertical-align-content"
+        tabindex="0"
+        style="bottom: 0px"
+      >
+        <div
+          role="alertdialog"
+          aria-describedby="cookies-policy-text"
+          aria-label="Use of Cookies on this Website"
+        >
+          <div class="ot-sdk-container">
+            <div class="ot-sdk-row">
+              <div
+                id="cookies-group-container"
+                class="ot-sdk-eight ot-sdk-columns"
+              >
+                <div class="banner_logo"></div>
+                <div id="cookies-policy">
+                  <h3 id="cookies-policy-title">
+                    Use of Cookies on this Website
+                  </h3>
+                  <p id="cookies-policy-text">
+                    This website uses technology -- referred to as "cookies" --
+                    to store and receive identifiers and other information on
+                    computers, phones, devices and web browsers. This helps our
+                    website function, provides analytics about website usage and
+                    facilitates a more personal experience for you. Use the
+                    buttons to choose your cookie settings.
+                  </p>
+                </div>
+              </div>
+              <div
+                id="cookies-button-group-parent"
+                class="ot-sdk-three ot-sdk-columns has-reject-all-button"
+              >
+                <div id="cookies-button-group">
+                  <button id="cookies-accept-btn-handler">
+                    Accept cookies
+                  </button>
+                  <button id="cookies-reject-all-handler">
+                    Reject cookies
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="ot-sdk-container" id="banner-options"></div>
+          </div>
+          <!-- Close Button -->
+          <div id="cookies-close-btn-container"></div>
+          <!-- Close Button END-->
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
