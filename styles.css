@@ -29,6 +29,8 @@
 
 #cookies-consent-sdk #cookies-banner-sdk {
   background-color: #32255e;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 #cookies-banner-sdk.otFlat {
@@ -149,7 +151,7 @@
   display: none;
 }
 
-.cookies-consent-sdk.activo {
+.cookies-consent-sdk.active {
   display: block;
 }
 
@@ -425,7 +427,7 @@
   clear: both;
 }
 
-body {
+/* body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,7 +438,7 @@ body {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
   color: var(--color-gray);
-}
+} */
 
 :root {
   --color-white: #fff;
